@@ -1,239 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abb22867-1d46-49ef-9775-bf7356922c99" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$CACHE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/java/com/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/java/com/demo/controller/DictController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/java/com/demo/controller/IndexController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/java/com/demo/utils/GetDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/java/com/demo/utils/HttpClientUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/china.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/css/custom-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfontba72.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfontba72.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfontba72.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfontba72.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/font-awesome/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/geo/china.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/chart-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/china.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/custom-scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/dataTables/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/dataTables/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/dataTables/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/easypiechart-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/easypiechart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/jquery.metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/morris/morris-0.4.3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/morris/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/static/assets/js/morris/raphael-2.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/templates/chart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/templates/empty.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/templates/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/templates/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/templates/tab-panel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/templates/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/main/resources/templates/ui-elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/src/test/java/com/demo/DemoApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/com/demo/DemoApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/com/demo/controller/DictController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/com/demo/controller/IndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/com/demo/utils/GetDate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/com/demo/utils/HttpClientUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/config/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/china.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/css/bootstrap-datetimepicker.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/css/custom-styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/font-awesome/fonts/fontawesome-webfontba72.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/font-awesome/fonts/fontawesome-webfontba72.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/font-awesome/fonts/fontawesome-webfontba72.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/font-awesome/fonts/fontawesome-webfontba72.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/font-awesome/fonts/fontawesome-webfontd41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/fonts/glyphicons-halflings-regulard41d.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/geo/china.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/bootstrap-datetimepicker.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/chart-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/chart.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/china.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/custom-scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/dataTables/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/dataTables/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/dataTables/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/easypiechart-data.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/easypiechart.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/jquery-1.10.2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/jquery.metisMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/morris/morris-0.4.3.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/morris/morris.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/static/assets/js/morris/raphael-2.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/templates/chart.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/templates/empty.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/templates/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/templates/index1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/templates/map.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/templates/tab-panel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/templates/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/classes/templates/ui-elements.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dw-chart/target/test-classes/com/demo/DemoApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/gmall-common.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/src/main/java/com/alibaba/common/GmallConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/target/classes/com/alibaba/common/GmallConstants.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/target/gmall-common-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-common/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/gmall-logger.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/src/main/java/com/alibaba/gmalllogger/GmallLoggerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/src/main/java/com/alibaba/gmalllogger/controller/LoggerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/src/test/java/com/alibaba/gmalllogger/GmallLoggerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/classes/com/alibaba/gmalllogger/GmallLoggerApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/classes/com/alibaba/gmalllogger/controller/LoggerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/gmall-logger-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/gmall-logger-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-logger/target/test-classes/com/alibaba/gmalllogger/GmallLoggerApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/src/main/java/com/alibaba/mock/JsonMocker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/src/main/java/com/alibaba/uploader/LogUploader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/src/main/java/com/alibaba/util/RanOpt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/src/main/java/com/alibaba/util/RandomDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/src/main/java/com/alibaba/util/RandomNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/src/main/java/com/alibaba/util/RandomOptionGroup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/classes/com/alibaba/mock/JsonMocker.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/classes/com/alibaba/uploader/LogUploader.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/classes/com/alibaba/util/RanOpt.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/classes/com/alibaba/util/RandomDate.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/classes/com/alibaba/util/RandomNum.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/classes/com/alibaba/util/RandomOptionGroup.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/gmall-mocker-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-mocker/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/gmall-publisher.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/src/main/java/com/alibaba/gmallpublisher/GmallPublisherApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/src/main/java/com/alibaba/gmallpublisher/controller/PublisherController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/src/main/java/com/alibaba/gmallpublisher/mapper/DauMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/src/main/java/com/alibaba/gmallpublisher/service/PublisherService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/src/main/java/com/alibaba/gmallpublisher/service/PublisherServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/src/main/resources/mapper/DauMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/target/classes/com/alibaba/gmallpublisher/GmallPublisherApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/target/classes/com/alibaba/gmallpublisher/controller/PublisherController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/target/classes/com/alibaba/gmallpublisher/mapper/DauMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/target/classes/com/alibaba/gmallpublisher/service/PublisherService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/target/classes/com/alibaba/gmallpublisher/service/PublisherServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-publisher/target/classes/mapper/DauMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/resources/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/resources/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/alibaba/app/DauApp.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/alibaba/bean/Startuplog.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/alibaba/handler/DauHandler.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/alibaba/util/MykafkaUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/alibaba/util/PropertiesUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/src/main/scala/com/alibaba/util/RedisUtil.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/app/DauApp$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/app/DauApp$$anonfun$main$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/app/DauApp$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/app/DauApp.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/bean/StartUpLog$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/bean/StartUpLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler$$anonfun$filterDataByBatch$1$$anonfun$apply$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler$$anonfun$filterDataByBatch$1$$anonfun$apply$4$$anonfun$apply$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler$$anonfun$filterDataByBatch$1$$anonfun$apply$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler$$anonfun$filterDataByBatch$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler$$anonfun$filterDataByRedis$1$$anonfun$apply$6$$anonfun$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler$$anonfun$filterDataByRedis$1$$anonfun$apply$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler$$anonfun$filterDataByRedis$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler$$anonfun$saveMidToRedis$1$$anonfun$apply$1$$anonfun$apply$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler$$anonfun$saveMidToRedis$1$$anonfun$apply$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler$$anonfun$saveMidToRedis$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/handler/DauHandler.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/util/MykafkaUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/util/MykafkaUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/util/PropertiesUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/util/PropertiesUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/util/RedisUtil$.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/com/alibaba/util/RedisUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall-realtime/target/classes/log4j.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gmall.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="abb22867-1d46-49ef-9775-bf7356922c99" name="Default Changelist" comment="第一个功能">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-logger/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-logger/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall-publisher/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall-publisher/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -320,7 +91,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -423,12 +194,35 @@
       <workItem from="1582013915452" duration="7307000" />
       <workItem from="1582073141113" duration="620000" />
       <workItem from="1582177597912" duration="13547000" />
-      <workItem from="1582244729967" duration="2177000" />
+      <workItem from="1582244729967" duration="4430000" />
     </task>
+    <task id="LOCAL-00001" summary="第一个功能">
+      <created>1582247226232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1582247226233</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="第一个功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="第一个功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Project_Structure" timestamp="1582025896600">
@@ -443,10 +237,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="389" y="90" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1536.824@0.0.1536.824" timestamp="1582025687711" />
-    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1582246732352">
+    <state x="257" y="4" key="CommitChangelistDialog2" timestamp="1582251797353">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582246732352" />
+    <state x="257" y="4" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582251797353" />
+    <state x="549" y="153" key="FileChooserDialogImpl" timestamp="1582257468343">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582257468343" />
     <state width="1493" height="200" key="GridCell.Tab.0.bottom" timestamp="1582191801492">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -495,10 +293,14 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="200" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1582191801494" />
-    <state x="260" y="61" width="996" height="710" key="SettingsEditor" timestamp="1582246414174">
+    <state x="260" y="61" width="996" height="710" key="SettingsEditor" timestamp="1582248013451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="260" y="61" width="996" height="710" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582246414174" />
+    <state x="260" y="61" width="996" height="710" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582248013451" />
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2" timestamp="1582247281994">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="134" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582247281994" />
     <state x="178" y="107" key="new project wizard" timestamp="1582183182422">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
