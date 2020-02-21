@@ -82,4 +82,52 @@ object DauHandler {
 
   }
 
+  //过滤掉老用户,留下第一次登录的用户
+  def filterOldUser(startLogDStream: DStream[StartUpLog]): DStream[StartUpLog] = {
+
+    startLogDStream.transform(rdd => {
+
+      rdd.mapPartitions(iter => {
+
+        val jedis = RedisUtil.getJedisClient
+
+        val logs = iter.filter(bean => {
+
+          !jedis.sismember("olduser", bean.mid)
+
+        })
+
+        jedis.close()
+
+        logs
+
+      })
+
+    })
+
+  }
+
+  //将数据保存至Redis,以供下一次去重使用
+  def saveOldUserToRedis(filterByBatch: DStream[StartUpLog]) = {
+
+    filterByBatch.foreachRDD(rdd => {
+
+      rdd.foreachPartition(iter => {
+
+        val jedis = RedisUtil.getJedisClient
+
+        iter.foreach(bean => {
+
+          jedis.sadd("olduser", bean.mid)
+
+        })
+
+        jedis.close()
+
+      })
+
+    })
+
+  }
+
 }

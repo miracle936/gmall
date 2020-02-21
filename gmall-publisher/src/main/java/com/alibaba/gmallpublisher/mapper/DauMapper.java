@@ -14,4 +14,6 @@ public interface DauMapper {
 
     public List<Map> selectDauTotalHourMap(String date);
 
+    public Integer getNewUser(String date);
+
 }

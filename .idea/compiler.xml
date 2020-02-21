@@ -12,11 +12,13 @@
         <module name="gmall-mocker" />
         <module name="gmall-logger" />
         <module name="gmall-publisher" />
+        <module name="gmall-canal" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gmall-canal" options="-parameters" />
       <module name="gmall-common" options="-parameters" />
       <module name="gmall-logger" options="-parameters" />
       <module name="gmall-mocker" options="-parameters" />

@@ -11,4 +11,8 @@
     </select>
     <resultMap id="dauTotalHour" type="java.util.Map" autoMapping="true">
     </resultMap>
+
+    <select id="getNewUser" resultType="Integer">
+        select count(*) from gmall2019_user where  logdate=#{date}
+    </select>
 </mapper>

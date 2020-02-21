@@ -3,7 +3,7 @@ package com.alibaba.app
 import java.text.SimpleDateFormat
 import java.util.Date
 
-import com.alibaba.bean.StartUpLog
+import com.alibaba.bean.{NewUser, StartUpLog}
 import com.alibaba.fastjson.JSON
 import com.alibaba.common.GmallConstants
 import com.alibaba.handler.DauHandler
@@ -56,11 +56,29 @@ object DauApp {
     //7.将数据保存至Redis,以供下一次去重使用
     DauHandler.saveMidToRedis(filterByBatch)
 
-    filterByBatch.count().print()
-
     //8.有效数据(不做计算)写入HBase
     filterByBatch.foreachRDD(rdd =>
       rdd.saveToPhoenix("GMALL190615_DAU", Seq("MID", "UID", "APPID", "AREA", "OS", "CH", "TYPE", "VS", "LOGDATE", "LOGHOUR", "TS"), new Configuration(), Some("hadoop111,hadoop112,hadoop113:2181"))
+    )
+
+    //9.过滤掉老用户,留下第一次登录的用户
+    val filterOldUser = DauHandler.filterOldUser(filterByBatch)
+
+    filterOldUser.cache()
+
+    //10.保存老用户,到redis
+    DauHandler.saveOldUserToRedis(filterOldUser);
+
+    filterOldUser.count().print()
+
+    //11有效数据(不做计算)写入HBase
+    filterOldUser.map(bean => {
+
+      new NewUser(bean.mid, bean.logDate)
+
+    }).foreachRDD(rdd =>
+
+      rdd.saveToPhoenix("gmall2019_user", Seq("MID", "LOGDATE"), new Configuration(), Some("hadoop111,hadoop112,hadoop113:2181"))
     )
 
     //启动任务

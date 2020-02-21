@@ -28,7 +28,7 @@ public class PublisherController {
      * @Description:获得当日日活
      */
     @GetMapping("realtime-total")
-    public String realtimeHourDate(@RequestParam("date") String date) {
+    public String getRealTimeTotal(@RequestParam("date") String date) {
 
         int total = publisherService.getDauTotal(date);
 
@@ -39,13 +39,23 @@ public class PublisherController {
         dauMap.put("name", "新增日活");
         dauMap.put("value", total);
 
+        Integer newUser = publisherService.getNewUser(date);
+
         HashMap<String, Object> newMidMap = new HashMap<>();
         newMidMap.put("id", "new_mid");
         newMidMap.put("name", "新增设备");
-        newMidMap.put("value", "233");
+        newMidMap.put("value", newUser);
+
+        Double count = publisherService.getOrderAmount(date);
+
+        HashMap<String, Object> orderMap = new HashMap<>();
+        orderMap.put("id", "order_amount");
+        orderMap.put("name", "新增交易额");
+        orderMap.put("value", count);
 
         result.add(dauMap);
         result.add(newMidMap);
+        result.add(orderMap);
 
         return JSON.toJSONString(result);
 
@@ -61,9 +71,39 @@ public class PublisherController {
 
         HashMap<String, Map> result = new HashMap<>();
 
-        Map map1 = publisherService.getDauHours(date);
+        String yesterday = getYesterdayDate(date);
 
-        //获取前一天的时间
+        Map map1 = null;
+
+        Map map2 = null;
+
+        if ("dau".equals(id)) {
+
+            map1 = publisherService.getDauHours(date);
+
+            //获得前一天的数据
+            map2 = publisherService.getDauHours(yesterday);
+
+        } else if ("order_amount".equals(id)) {
+
+            map1 = publisherService.getOrderAmountHour(date);
+
+            //获得前一天的数据
+            map2 = publisherService.getOrderAmountHour(yesterday);
+
+        }
+
+        result.put("yesterday", map2);
+
+        result.put("today", map1);
+
+        return JSON.toJSONString(result);
+
+    }
+
+    //获取前一天的时间
+    private String getYesterdayDate(@RequestParam("date") String date) {
+
         SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd");
 
         Calendar instance = Calendar.getInstance();
@@ -76,16 +116,6 @@ public class PublisherController {
 
         instance.add(Calendar.DAY_OF_MONTH, -1);
 
-        String yesterday = dateFormat.format(new Date(instance.getTimeInMillis()));
-
-        //获得前一天的数据
-        Map map2 = publisherService.getDauHours(yesterday);
-
-        result.put("yesterday", map2);
-
-        result.put("today", map1);
-
-        return JSON.toJSONString(result);
-
+        return dateFormat.format(new Date(instance.getTimeInMillis()));
     }
 }
